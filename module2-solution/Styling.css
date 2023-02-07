@@ -1,16 +1,152 @@
 h1 {
-  font-size: 30px;
-  color: blue;
-  font-family: ;
+  font-size: 32px;
+  font-family:"Lucida Console", "Courier New", monospace  ;
   font-weight: bold;
+  font-style: normal;
+  text-transform: capitalize;
 } 
 
-.para{
-  font-family: corbel;
-  color: greenyellow;
+body{
+  color: black;
 }
 
-#box{
-  width: 300px;
-  border: 2px solid black;
+.para
+{
+  font-family: "Times New Roman", Times, serif;
+    font-size:1.1em ;
+  background-color: #aaa7a6;
+
+}
+
+
+*
+{
+  box-sizing: border-box; 
+  overflow: auto;
+}
+
+
+@media(min-width:992px)
+{
+  .first {
+    
+    margin: 2.5%;
+    border:3px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 28%;
+    height: 200px;
+   
+   
+     float: left;
+   }
+ 
+
+
+.first .second{
+ 
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+  padding-top: 1%;
+  position: relative;
+  top: -10px;
+  right:-66%;
+    font-weight:550;
+    font-size:1.25em ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 20%;  
+}
+}
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .first {
+    margin: 2.5%;
+    border:3px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 45%;
+    height: 200px;
+   
+     float: left;
+   }
+ 
+
+
+.first .second{
+ 
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+  padding-top: 1%;
+  position: relative;
+  top: -10px;
+  right:-66%;
+    font-weight:550;
+    font-size:1.25em ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 20%;
+   
+} 
+
+
+#thirdtablet
+{
+  width: 95%;
+}
+
+
+}
+
+
+
+
+
+
+@media (max-width:767px)
+{
+  .first {
+    margin: 2.5%;
+    border:3px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 95%;
+    height: 200px;
+    
+   
+    clear: right;
+
+   }
+ 
+
+
+.first .second{
+ 
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+  padding-top: 1%;
+  position: relative;
+  top: -10px;
+  right:-66%;
+    font-weight:550;
+    font-size:1.25em ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 20%;
+   
+    
+}
 }
